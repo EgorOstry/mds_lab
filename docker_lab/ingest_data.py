@@ -6,6 +6,7 @@ from time import time
 
 
 url = "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-05.parquet"
+
 os.system(f"wget {url} -O output.parquet")
 
 parquet_file = pq.ParquetFile('output.parquet')
