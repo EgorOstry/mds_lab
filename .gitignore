@@ -161,3 +161,5 @@ cython_debug/
 docker_lab/ny_taxi_pg_data/
 ny_taxi_pg_data/
 /.env
+docker_lab/output.parquet
+output.parquet
